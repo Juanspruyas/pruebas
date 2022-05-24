@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- pagina grid genereitor -->
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 3 / 3; }
+        .div2 { grid-area: 1 / 3 / 2 / 4; }
+        .div3 { grid-area: 1 / 3 / 4 / 5; }
+        .div4 { grid-area: 3 / 1 / 4 / 2; }
+        .div5 { grid-area: 3 / 1 / 6 / 3; }
+        .div6 { grid-area: 4 / 3 / 5 / 4; }
+        .div7 { grid-area: 4 / 3 / 6 / 6; }
+
+
+<!-- con y sin transiciones -->
+<section>
+    
+    <div >
+        <h1>sin transiciones</h1>
+    </div>
+    <div class="box box-uno"></div>
+    </div>
+
+    <div>
+    
+        <h2>con transiciones</h2>
+    </div>
+       <div class="box box-dos"></div>
+    </div>
+
+</section>
+
+<section class="container-circle">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+</section>
+
+<div class="combinado">
+<div class="scuare1"></div>
+<div class="scuare2"></div>
+</div>
+
+
+<section>
+<div class="animaciones"></div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* esto es un comentario */
+
+/* selector{
+    propiedad: valor;
+ } */
+ /* cascada */
+ section {color: blue;
+    background-color: blueviolet;}
+ 
+
+/* class */
+
+ .parrafo.rojo{color: brown;}
+
+
+ /* ID */
+
+ #trabajos{background-color: blueviolet;}
+
+body{
+    background-image:url(imag/Penguins.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+    ;}
+
+a{
+    text-decoration: none;
+    color: rgb(155, 28, 28)
+    ;font-size: larger;
+}

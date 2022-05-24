@@ -1,0 +1,17 @@
+/* position me permite utilizar las cordenadas. top - right - left */
+
+.item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+}
+
+/* absolute: las coordenadas se basan en el marco de la pantalla */
+.item-absolute {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+
+}

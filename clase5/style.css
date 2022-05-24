@@ -1,0 +1,58 @@
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    background-color: rgb(0, 162, 255);
+    color: brown;
+    padding: 20px 0;
+    display: flex;
+    /* alinear horizontalmente */
+    justify-content: center;
+    /* star
+    center end 
+    ej */
+}
+
+.menu{
+    border: 1px solid; color: green;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container {
+    background-color: blueviolet;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    /* alinear verticalmente */
+    align-items: center;
+}
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid{
+    width: 50%;
+    display: flex;
+    justify-content:start;
+    /* cuando desbordan los elementos se activan */
+    flex-wrap: wrap;
+}
+.first-item{
+    /* orden - sin afectar a los elementos circundantes */
+    order: 1;
+}
+
+

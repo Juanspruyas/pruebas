@@ -1,0 +1,149 @@
+.box{
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+    margin: 50px auto;
+}
+.box-uno{background-color: blueviolet;
+
+}
+
+.box-dos {background-color: aqua;
+    /* dos valores obligatorios para que funcione
+    1 a que propiedad le doy transicion
+    2 cuanto tiempo dura esta transicion */
+    transition-property:  all;
+    transition-duration: 2s;
+    transition: all 2s;
+
+}
+
+/* hover _ se activan las propiedades dentro de las llaves de hover ciando el usuario pasa el mouse por encima del elemento  */
+
+.box:hover{
+    /* que crezca 4 veces su tamaño */
+    transform: scale(4);
+
+}
+
+/*  */
+.container-circle div{
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.container-circle .circle1:hover,
+.container-circle .circle2:hover,
+.container-circle .circle3:hover,
+.container-circle .circle4:hover,
+.container-circle .circle5:hover{
+/*  cuando quiero mocer horizontalmente al elemento o seccion  */
+    transform: translateX(200px);
+}
+
+.circle1 {
+    background-color: black;
+    /* curva de velocidad- decidir como queremos que reaccione el elemento a lo largo del tiempo */
+    transition: all 1.5s linear;
+    
+}
+
+.circle2 {
+    background-color: brown;
+    transition: all 1.5s ease;
+}
+
+.circle3{
+    background-color: blue;
+    transition: all 1.5s ease-in-out;
+}
+
+.circle4{
+    background-color: blueviolet;
+    transition: all 1.5s ease-out;
+}
+
+.circle5 {
+    background-color: green;
+    transition: all 1.5s ease-in;
+}
+.scuare1, .scuare2{
+    border-radius: 2px;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    position: absolute;
+}
+
+.scuare1{
+    background-color: blue;
+    
+}
+
+.scuare2{
+    background-color: red;
+}
+
+.scuare2:hover{
+    transform: translate(20px,20px);
+    background-color: transparent;
+
+}
+
+.combinado {
+    background-color: blueviolet;
+    width: 75px;
+    height: 75px;
+    margin: 50px auto;
+
+    transition: all 2s;
+}
+
+.combinado:hover {
+    transform: scale(2) translateX(120px) rotate(90deg);
+
+    /* prefijos */
+    -webkit-transform: scale(2) translateX(120px) rotate(90deg);
+}
+
+.animaciones {
+    width: 120px;
+    height: 120px;
+    margin: 50px auto;
+    background-color: yellow;
+}
+
+
+.animaciones:hover {
+/* nombre y la duracion */
+animation: changeColor 4s;
+}
+
+/* keyframe */
+@keyframes changecolor {
+    0% { 
+        background-color: yellow;
+    }
+
+    12% {
+        background-color: black;
+    }
+
+    20% { background-color: green;
+    }
+
+    50% {
+        background-color: pink;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+/* cascada */
+
+
+p em{size: 50px
+    
+    ;}
+
+/* , */
+h1,p {background-color: blueviolet;}
+
+em{
+    background-color: brown;
+}
+
+/* box.model */
+h1{
+    /* si agregamos un valor o unidad de medida afectamos a los cuatro lados  */
+    /* padding: 40px; */
+  
+    /* padding: top 20px; ; */
+    /* padding-right: ; */
+    /* padding-bottom: ; */
+    /* padding-left: ; */
+
+    /* lados verticales y horizontales */
+    /* padding: 26px 40px; */
+ 
+    /* los cuatros lados */
+    padding: 20px 18px 40px 60px;
+/* no separa cajas */
+
+
+
+/* tipos de trazo - estilo-color */
+border: 5px dotted black;
+/* bordes: solid, dotted */
+}
+p{
+    /* margin: 40px; */
+/* margin: 20px 40; */
+margin: 20px 20px 40px 25px;
+/* separa cajas */
+
+}
+
+/* unidades de medida */
+
+
+/* unidades absolutas
+cm
+px - la mas usada en css
+in
+pc
+pt
+q */
+em{
+    padding-top: 0%;
+}
+
+/* unidades relativas 
+%
+em
+ex
+ch
+rem
+*/
+
+.imagen{size: 100%;}
+
+
+
+/* em o rem */
+p { 
+    font-size: 2em
+    ;}
+    /* 1em es igual a 16px */
+/* 1rem me permite establecer el tamaño base - r es de robot */
+
+
+/* navegadores y html agregan un tamaño de 16px a los textos */
+
+/*  */
