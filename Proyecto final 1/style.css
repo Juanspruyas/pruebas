@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(156, 68, 9);
+    background-color: rgb(255, 255, 255);
     font-family: arial, helvetica;
 }
 
@@ -246,6 +246,16 @@ footer li a:hover{
    display: flex;
    
     
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carousel-item{
+    border: 2px solid black;
 }
 
 .titulos {

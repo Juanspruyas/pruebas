@@ -49,33 +49,22 @@
         Corrupti vel commodi aperiam enim, numquam minima? Modi saepe, magnam nisi cumque, vel dolor dignissimos repellat atque beatae itaque facilis quas dolores inventore consequuntur dolorum! Perferendis facilis nobis dicta maxime.</p>
     
     </section>
-   
     <main class="main">
-        
-        <div class="consulta">  
-           <form action="" method="get" enctype="text/plain">
-        
-       
-       
-        <label for="UserName">Nombre y apellido</label>
-        <input type="text" name="UserName" id="UserName"required placeholder="Ingresar su Nombre">
-        
-        
-        <label for="email">Mail</label>
-        <input type="email" name="UserMail"id="UserMail" required placeholder="Ingresar su mail">
-        
-        
-            <label for="UserText">Ingrese su mensaje</label>
-            <textarea name="UserText" id="UserText" cols="30" rows="10" required placeholder="Dejar su consulta">UserText</textarea>
-        
-        
-            <input type="submit" value="ENVIAR">
-            <input type="reset" value="Limpiar formulario">
-        </div>
+        <section class="container">
+           <div class="consulta">
+               <div class="left"></div>
+               <div class="right">
+                   <h2>Contacto</h2>
+                   <input type="text" class="field" placeholder="Nombre">
+                   <input type="email" class="field" placeholder="Email">
+                   <input type="text" class="field" placeholder="Numero de telefono">
+                   <textarea class="field area" placeholder="Mensaje"></textarea> 
+                   <button class="btn">ENVIAR</button>
+               </div>
 
-
-  
-        </div>
+           </div>
+   
+        </section>  
     </main>
 
       <section>
@@ -89,14 +78,36 @@
 
 
 <footer>
-
-    <nav>
-        <ul class="menu2"><li><a href="index.html">INICIO</a></li>
-            <li><a href="http://instagram.com"><img src="https://images.app.goo.gl/LN44SUbQGS3wiqCM8" alt="instagram LT DISEÑOS"></a></li>
-            <li><a href="https://web.whatsapp.com/"><img src="logo.wpp" alt="Wpp de contacto"></a></li>
-            <li><a href="https://www.facebook.com/lulatanaradesign/"><img src="logo.fb" alt="facebook"></a></li>
-        </ul>
-    </nav>
+    <section class="menu2">
+        <!-- menu de arriba  -->
+        <nav class="navbar navbar-expand-lg ">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#"><img src="LT DISEÑOS" alt=""></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               
+               <li class="nav-item">
+                 <a class="nav-link icon-home" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link icon-facebook" href="https://www.facebook.com/lulatanaradesign/">Facebook</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link icon-mobile" href="#">Whatsapp</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link icon-instagram" href="https://www.instagram.com/lulatanaradesign/">Instragram</a>
+               </li>
+                 
+            
+             </form>
+           </div>
+         </div>
+       </nav>
+ </section>
 </footer>
 
 
